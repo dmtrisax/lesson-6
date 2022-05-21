@@ -1,0 +1,270 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:regular,700);
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --main-font:'Open Sans';
+    --main-font-color: #070707;
+}
+
+body {
+    font-family: var(--main-font);
+    color: var(--main-font-color);
+}
+
+
+.container {
+    width: 100%;
+    max-width: 943px;
+    margin: 0 auto;   
+}
+
+.sub-title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    text-align: center;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.sub-title:hover{
+    transform: scale(1.2)
+
+}
+
+.text {
+    
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+
+}
+
+.img {
+    width: 936px;
+    height: 522px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 7px;
+    
+}
+
+
+
+section:nth-child(2n) {
+    background: #F6F6F6;
+}
+
+
+
+/*  global styles end   */
+
+.header__menu-item {
+    list-style: none;
+    
+}
+
+
+.header__menu {
+    padding: 29px 0;
+    margin-bottom: 33px;
+    border-bottom: 1px solid #828282;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+.header__menu-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.header__menu-title {
+    display: block;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #828282;
+    text-decoration: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transition: transform 0.5s;
+    
+}
+
+.header__menu-title:hover {
+    color: var(--main-font-color);
+    transform: scale(1.2);
+}
+
+.header__title {
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 64px;
+    margin-bottom: 38px;
+}
+
+.header__img {
+    width: 943px;
+    height: 387px;
+    background-image: url(../img/header-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 100px;
+    
+}
+
+.about-me {
+    padding:100px 0;
+}
+
+.about-me__container {
+    max-width: 480px;
+}
+
+.about-me__sub-title{
+    margin-bottom: 28px;
+}
+
+.about-me__text{
+    margin-bottom: 48px;
+    display: block;
+    transition: transform 0.5s;
+
+}
+
+.about-me__text:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+.about-me__text:last-child {
+    margin-bottom: 0;
+}
+
+.skills {
+    padding: 100px 0 83px 0;
+}
+
+.skills__container {
+    max-width: 936px;
+}
+
+.skills__sub-title {
+    margin-bottom: 28px;
+
+}
+
+.skills__text {
+    margin-bottom: 78px;
+}
+
+
+.skills__list {
+    
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 190px; 
+}
+    
+.portfolio {
+    padding: 100px 0;
+}
+
+.portfolio__container {
+    max-width: 936px;
+}
+
+.portfolio__sub-title {
+    margin-bottom: 67px;
+}
+
+.portfolio__levis {
+    
+    
+    
+    background-image: url(../img/levis.jpg);
+ 
+
+}
+
+.portfolio__reebok {
+   
+    background-image: url(../img/reebok.jpg);
+   
+
+    
+}
+
+.portfolio__braun {
+   
+    background-image: url(../img/braun.jpg);
+    
+
+    
+}
+
+.portfolio-img-title {
+    
+    display: flex;
+    justify-content: center;
+    
+    color: var(--main-font-color);
+    margin-bottom: 128px;
+    
+}
+
+.contacts {
+
+    padding: 100px 0 83px 0;
+
+}
+
+.contacts__container {
+    margin-bottom: 86px;
+
+}
+
+.contacts__sub-title {
+    margin-bottom: 21px;
+    
+
+}
+
+.contacts__social-medias {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #828282;
+    margin-bottom: 159px;
+}
+
+.contacts__list > img {
+    padding: 36px 0 44px 0;
+
+    
+}
+
+
+
+.skills__container{
+
+    width: 936.59px;
+height: 396.14px;
+    
+}
+
+.skills__text {
+   
+}
